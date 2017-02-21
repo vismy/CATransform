@@ -14,6 +14,8 @@
 		8E7698EC1E4D861F0078E674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7698EB1E4D861F0078E674 /* Assets.xcassets */; };
 		8E7698EF1E4D861F0078E674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7698ED1E4D861F0078E674 /* LaunchScreen.storyboard */; };
 		8E7698FA1E4D861F0078E674 /* ObjectiveTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7698F91E4D861F0078E674 /* ObjectiveTableViewTests.m */; };
+		8E7699071E4D86AF0078E674 /* ObjcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7699061E4D86AF0078E674 /* ObjcTableViewCell.m */; };
+		8EC8F8DB1E5C13400064CB08 /* TransformManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8F8DA1E5C13400064CB08 /* TransformManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		8E7698F51E4D861F0078E674 /* ObjectiveTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7698F91E4D861F0078E674 /* ObjectiveTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveTableViewTests.m; sourceTree = "<group>"; };
 		8E7698FB1E4D861F0078E674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7699051E4D86AF0078E674 /* ObjcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjcTableViewCell.h; path = Cell/ObjcTableViewCell.h; sourceTree = "<group>"; };
+		8E7699061E4D86AF0078E674 /* ObjcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjcTableViewCell.m; path = Cell/ObjcTableViewCell.m; sourceTree = "<group>"; };
+		8EC8F8D91E5C13400064CB08 /* TransformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformManager.h; path = TransformManager/TransformManager.h; sourceTree = "<group>"; };
+		8EC8F8DA1E5C13400064CB08 /* TransformManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformManager.m; path = TransformManager/TransformManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,8 @@
 		8E7698D31E4D861E0078E674 = {
 			isa = PBXGroup;
 			children = (
+				8EC8F8D81E5C13140064CB08 /* TransformManager */,
+				8E7699041E4D867F0078E674 /* Cell */,
 				8E7698DE1E4D861F0078E674 /* ObjectiveTableView */,
 				8E7698F81E4D861F0078E674 /* ObjectiveTableViewTests */,
 				8E7698DD1E4D861F0078E674 /* Products */,
@@ -109,6 +117,25 @@
 				8E7698FB1E4D861F0078E674 /* Info.plist */,
 			);
 			path = ObjectiveTableViewTests;
+			sourceTree = "<group>";
+		};
+		8E7699041E4D867F0078E674 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8E7699051E4D86AF0078E674 /* ObjcTableViewCell.h */,
+				8E7699061E4D86AF0078E674 /* ObjcTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		8EC8F8D81E5C13140064CB08 /* TransformManager */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8F8D91E5C13400064CB08 /* TransformManager.h */,
+				8EC8F8DA1E5C13400064CB08 /* TransformManager.m */,
+			);
+			name = TransformManager;
+			path = ObjectiveTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +244,9 @@
 			files = (
 				8E7698E71E4D861F0078E674 /* ViewController.m in Sources */,
 				8E7698E41E4D861F0078E674 /* AppDelegate.m in Sources */,
+				8EC8F8DB1E5C13400064CB08 /* TransformManager.m in Sources */,
 				8E7698E11E4D861F0078E674 /* main.m in Sources */,
+				8E7699071E4D86AF0078E674 /* ObjcTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6927D8BE8K;
 				INFOPLIST_FILE = ObjectiveTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyi.ObjectiveTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6927D8BE8K;
 				INFOPLIST_FILE = ObjectiveTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyi.ObjectiveTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +449,7 @@
 				8E7699001E4D861F0078E674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E7699011E4D861F0078E674 /* Build configuration list for PBXNativeTarget "ObjectiveTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +458,7 @@
 				8E7699031E4D861F0078E674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
