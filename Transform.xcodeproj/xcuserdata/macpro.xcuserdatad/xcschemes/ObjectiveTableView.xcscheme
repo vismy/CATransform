@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E7698DB1E4D861F0078E674"
-               BuildableName = "ObjectiveTableView.app"
-               BlueprintName = "ObjectiveTableView"
-               ReferencedContainer = "container:ObjectiveTableView.xcodeproj">
+               BuildableName = "Transform.app"
+               BlueprintName = "Transform"
+               ReferencedContainer = "container:Transform.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E7698F41E4D861F0078E674"
-               BuildableName = "ObjectiveTableViewTests.xctest"
-               BlueprintName = "ObjectiveTableViewTests"
-               ReferencedContainer = "container:ObjectiveTableView.xcodeproj">
+               BuildableName = "TransformTests.xctest"
+               BlueprintName = "TransformTests"
+               ReferencedContainer = "container:Transform.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E7698DB1E4D861F0078E674"
-            BuildableName = "ObjectiveTableView.app"
-            BlueprintName = "ObjectiveTableView"
-            ReferencedContainer = "container:ObjectiveTableView.xcodeproj">
+            BuildableName = "Transform.app"
+            BlueprintName = "Transform"
+            ReferencedContainer = "container:Transform.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E7698DB1E4D861F0078E674"
-            BuildableName = "ObjectiveTableView.app"
-            BlueprintName = "ObjectiveTableView"
-            ReferencedContainer = "container:ObjectiveTableView.xcodeproj">
+            BuildableName = "Transform.app"
+            BlueprintName = "Transform"
+            ReferencedContainer = "container:Transform.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E7698DB1E4D861F0078E674"
-            BuildableName = "ObjectiveTableView.app"
-            BlueprintName = "ObjectiveTableView"
-            ReferencedContainer = "container:ObjectiveTableView.xcodeproj">
+            BuildableName = "Transform.app"
+            BlueprintName = "Transform"
+            ReferencedContainer = "container:Transform.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
